@@ -18,9 +18,10 @@ class MosqueController extends Controller
     /**
      * Show the form for creating a new resource.
      */
-    public function create()
+    public function create(Request $request )
     {
-        //
+        $mosque = Mosque::where('id',$request->id)->first();
+        return view('backend.mosque.form',compact('mosque'));
     }
 
     /**
@@ -61,5 +62,8 @@ class MosqueController extends Controller
     public function destroy(Mosque $mosque)
     {
         //
+    }
+    public function backend(){
+        return view('backend.dashboard');
     }
 }
