@@ -1,0 +1,83 @@
+.prayer-time-section{
+    background: url("../img/background.webp"), center center no-repeat;
+    background-size: cover;
+}
+.background-color{
+    background-color: #ffffffa8;
+    padding: 5rem 0rem;
+}
+.top-box {
+            background: #4aa381;
+            color: #fff;
+            border-radius: 10px;
+            padding: 15px 20px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .top-box .left-date {
+            font-size: 18px;
+        }
+
+        .top-box .sun-info {
+            text-align: right;
+        }
+
+        .top-box .sun-info i {
+            font-size: 24px;
+        }
+
+        .content-box {
+            background: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .left-section, .right-section {
+            flex: 1;
+            min-width: 280px;
+        }
+
+        .countdown-circle {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            background: conic-gradient(#3fa183 75%, #e5e5e5 0);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 22px;
+            font-weight: bold;
+            margin: auto;
+            margin-top: 10px;
+        }
+
+        .prayer-time-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px 0;
+            border-bottom: 1px solid #eee;
+            font-size: 16px;
+        }
+
+        .prayer-time-row i {
+            margin-right: 6px;
+            color: #3fa183;
+        }
+
+        .isha-row {
+            background: #3fa183;
+            color: white;
+            border-radius: 5px;
+            padding: 8px 10px;
+            margin-top: 10px;
+            font-weight: bold;
+        }
