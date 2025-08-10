@@ -1,7 +1,7 @@
       
       <!-- Topbar start -->
         <div class="container-fluid fixed-top">
-            <div class="container topbar d-none d-lg-block">
+            <div class="container topbar d-none d-lg-block" style="background-color:aliceblue;" >
                 <div class="topbar-inner">
                     <div class="row gx-0">
                         <div class="col-lg-7 text-start">
@@ -30,7 +30,7 @@
             <div class="container">
                 <nav class="navbar navbar-light navbar-expand-lg py-3">
                     <a href="index.html" class="navbar-brand">
-                        <h1 class="mb-0">THE<span class="text-primary">Mosque</span> </h1>
+                        <h1 class="mb-0">Sunnah <span class="text-primary"> Academy</span> </h1>
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                         <span class="fa fa-bars text-primary"></span>
