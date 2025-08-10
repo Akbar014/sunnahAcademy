@@ -99,7 +99,7 @@
                         <div class="activities-item p-4 wow fadeIn" data-wow-delay="0.1s">
                             <i class="fa fa-mosque fa-4x text-dark"></i>
                             <div class="ms-4">
-                                <h4>Mosque Development</h4>
+                                <h4>Mosq</h4>
                                 <p class="mb-4">Lorem ipsum dolor sit amet elit. Donec tempus eros vel dolor mattis aliquam.</p>
                                 <a href="" class="btn btn-primary px-3">Read More</a>
                             </div>
@@ -125,7 +125,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-xl-4">
+                    <!-- <div class="col-lg-6 col-xl-4">
                         <div class="activities-item p-4 wow fadeIn" data-wow-delay="0.1s">
                             <i class="fa fa-book fa-4x text-dark"></i>
                             <div class="ms-4">
@@ -154,7 +154,7 @@
                                 <a href="" class="btn btn-primary px-3">Read More</a>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -400,7 +400,7 @@
 
 
         <!-- Team Start -->
-        <div class="container-fluid team py-5">
+        <div class="container-fluid team py-5 d-none">
             <div class="container py-5">
                 <div class="text-center mx-auto mb-5 wow fadeIn" data-wow-delay="0.1s" style="max-width: 700px;">
                     <p class="fs-5 text-uppercase text-primary">Our Team</p>

@@ -5,3 +5,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('frontend.home.index');
 });
+
+
+Route::get('/backend', function () {
+    return "ok";
+});
